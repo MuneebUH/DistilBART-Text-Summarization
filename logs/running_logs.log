@@ -1,0 +1,711 @@
+[2024-11-14 15:09:54,567: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 15:09:54,571: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 15:09:54,573: INFO: common: created directory at: artifacts]
+[2024-11-14 15:09:54,608: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-14 15:09:56,061: INFO: 939784126: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 68659
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "27e9de1bfac42634ecf917d49d0a7036073ec95f96e5f35aa4352ac1cd2fcf4b"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C3AF:64F8D:6B57FC:758125:6735CC71
+Accept-Ranges: bytes
+Date: Thu, 14 Nov 2024 10:09:55 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990034-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1731578995.461880,VS0,VE263
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a00ae7d40dc4cddc311fe032025118532aa65f08
+Expires: Thu, 14 Nov 2024 10:14:55 GMT
+Source-Age: 0
+
+]
+[2024-11-14 21:34:32,200: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 21:34:32,217: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 21:34:32,220: INFO: common: created directory at: artifacts]
+[2024-11-14 21:34:32,222: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-14 21:34:35,251: INFO: 939784126: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 71242
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "0233214ab70ed92f8366628bdbc229fca4a398b4a700b32ddd9d5ce695fdc6ba"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E24E:1021C3:793FDC:8594AA:6736269A
+Accept-Ranges: bytes
+Date: Thu, 14 Nov 2024 16:34:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990029-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1731602075.578161,VS0,VE477
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 841970620f5c1b47db24d052c727667990242a37
+Expires: Thu, 14 Nov 2024 16:39:35 GMT
+Source-Age: 0
+
+]
+[2024-11-14 22:26:14,169: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-14 23:02:15,358: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-14 23:02:21,959: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-14 23:02:22,023: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 23:02:22,037: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 23:02:22,039: INFO: common: created directory at: artifacts]
+[2024-11-14 23:02:22,040: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-14 23:02:23,365: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 71242
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "0233214ab70ed92f8366628bdbc229fca4a398b4a700b32ddd9d5ce695fdc6ba"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2C3F:20DBFA:7EDEE4:8C2211:67363B2E
+Accept-Ranges: bytes
+Date: Thu, 14 Nov 2024 18:02:23 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990025-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1731607343.298877,VS0,VE291
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e9f245887cca94d154e96d1aa0f46f05a1f48511
+Expires: Thu, 14 Nov 2024 18:07:23 GMT
+Source-Age: 0
+
+]
+[2024-11-14 23:02:23,407: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 15:19:01,201: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 15:19:01,296: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 15:19:01,301: INFO: common: created directory at: artifacts]
+[2024-11-15 15:19:01,340: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 15:25:40,627: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 15:25:40,632: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 15:25:40,634: INFO: common: created directory at: artifacts]
+[2024-11-15 15:25:40,637: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 15:26:52,195: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 15:26:52,203: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 15:26:52,205: INFO: common: created directory at: artifacts]
+[2024-11-15 15:26:52,207: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 15:30:34,822: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 15:30:34,834: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 15:30:34,853: INFO: common: created directory at: artifacts]
+[2024-11-15 15:30:34,856: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 15:33:05,103: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 15:33:05,109: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 15:33:05,113: INFO: common: created directory at: artifacts]
+[2024-11-15 15:33:05,114: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 15:35:00,786: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 15:35:00,802: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 15:35:00,806: INFO: common: created directory at: artifacts]
+[2024-11-15 15:35:00,810: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 16:39:44,096: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 16:39:55,008: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-15 16:39:55,041: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 16:39:55,049: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 16:39:55,052: INFO: common: created directory at: artifacts]
+[2024-11-15 16:39:55,053: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-15 16:39:57,417: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 71242
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "0233214ab70ed92f8366628bdbc229fca4a398b4a700b32ddd9d5ce695fdc6ba"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1FC5:384BDD:74372C:801B55:6737330B
+Accept-Ranges: bytes
+Date: Fri, 15 Nov 2024 11:39:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990026-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1731670797.579963,VS0,VE343
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d0203a5457690fd8e1e232db152742c81d185bc0
+Expires: Fri, 15 Nov 2024 11:44:56 GMT
+Source-Age: 0
+
+]
+[2024-11-15 16:39:57,493: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 16:39:57,495: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-15 16:39:57,502: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 16:39:57,510: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 16:39:57,515: INFO: common: created directory at: artifacts]
+[2024-11-15 16:39:57,517: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 16:39:57,519: ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\samsum_dataset']
+Traceback (most recent call last):
+  File "e:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\main.py", line 26, in <module>
+    data_validation.main()
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\src\textSummarizer\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation.validate_all_files_exist()
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\src\textSummarizer\conponents\data_validation.py", line 30, in validate_all_files_exist
+    raise e
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\src\textSummarizer\conponents\data_validation.py", line 15, in validate_all_files_exist
+    all_files = os.listdir(os.path.join("artifacts","data_ingestion","samsum_dataset"))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\samsum_dataset'
+[2024-11-15 16:42:29,209: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 16:42:31,022: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-15 16:42:31,024: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 16:42:31,024: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 16:42:31,024: INFO: common: created directory at: artifacts]
+[2024-11-15 16:42:31,031: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-15 16:42:31,031: INFO: data_ingestion: File already exists of size: ~ 70 KB]
+[2024-11-15 16:42:31,042: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 16:42:31,043: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-15 16:42:31,061: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 16:42:31,067: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 16:42:31,068: INFO: common: created directory at: artifacts]
+[2024-11-15 16:42:31,069: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 16:42:31,074: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-11-15 16:45:17,467: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 16:45:19,420: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-15 16:45:19,446: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 16:45:19,452: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 16:45:19,454: INFO: common: created directory at: artifacts]
+[2024-11-15 16:45:19,531: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-15 16:45:22,010: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 71242
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "0233214ab70ed92f8366628bdbc229fca4a398b4a700b32ddd9d5ce695fdc6ba"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1FC5:384BDD:74372C:801B55:6737330B
+Accept-Ranges: bytes
+Date: Fri, 15 Nov 2024 11:45:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990022-FJR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1731671121.255873,VS0,VE269
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 10fce02dc57b7dea92936d3b2bc687af82c4c8ab
+Expires: Fri, 15 Nov 2024 11:50:21 GMT
+Source-Age: 0
+
+]
+[2024-11-15 16:45:22,110: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 16:45:22,113: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-15 16:45:22,121: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 16:45:22,126: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 16:45:22,127: INFO: common: created directory at: artifacts]
+[2024-11-15 16:45:22,128: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 16:45:22,134: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-11-15 17:48:16,477: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 17:48:16,495: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 17:48:16,495: INFO: common: created directory at: artifacts]
+[2024-11-15 17:48:16,495: INFO: common: created directory at: artifacts/data_transformation]
+[2024-11-15 17:50:29,504: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 17:50:29,504: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 17:50:29,504: INFO: common: created directory at: artifacts]
+[2024-11-15 17:50:29,519: INFO: common: created directory at: artifacts/data_transformation]
+[2024-11-15 19:52:03,089: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 19:52:15,327: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-15 19:52:15,330: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 19:52:15,365: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 19:52:15,367: INFO: common: created directory at: artifacts]
+[2024-11-15 19:52:15,368: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-15 19:52:17,129: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 71242
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "0233214ab70ed92f8366628bdbc229fca4a398b4a700b32ddd9d5ce695fdc6ba"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6F37:3EA133:47282:4D484:67376020
+Accept-Ranges: bytes
+Date: Fri, 15 Nov 2024 14:52:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990031-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1731682337.896395,VS0,VE287
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 599df2a2544d83655e90c7212a7aabce11cb66ec
+Expires: Fri, 15 Nov 2024 14:57:17 GMT
+Source-Age: 0
+
+]
+[2024-11-15 19:52:17,260: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 19:52:17,261: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-15 19:52:17,262: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 19:52:17,269: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 19:52:17,274: INFO: common: created directory at: artifacts]
+[2024-11-15 19:52:17,276: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 19:52:17,279: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-11-15 20:30:16,615: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 20:30:16,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 20:30:16,628: INFO: common: created directory at: artifacts]
+[2024-11-15 20:30:16,630: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 21:07:53,072: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 21:08:00,749: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-15 21:08:00,752: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:08:00,774: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:08:00,777: INFO: common: created directory at: artifacts]
+[2024-11-15 21:08:00,779: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-15 21:08:02,876: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 71242
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "0233214ab70ed92f8366628bdbc229fca4a398b4a700b32ddd9d5ce695fdc6ba"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C403:129FAA:982D81:A692DE:673771E2
+Accept-Ranges: bytes
+Date: Fri, 15 Nov 2024 16:08:03 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990028-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1731686883.510659,VS0,VE522
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ab775d14413fc4e2e8b26bb8a59c8a1f045ba135
+Expires: Fri, 15 Nov 2024 16:13:03 GMT
+Source-Age: 0
+
+]
+[2024-11-15 21:08:03,012: INFO: data_ingestion: Files extracted to artifacts/data_ingestion]
+[2024-11-15 21:08:03,018: INFO: data_ingestion: Dataset organized into train, test, and val folders.]
+[2024-11-15 21:08:03,019: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 21:08:03,020: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-15 21:08:03,023: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:08:03,031: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:08:03,033: INFO: common: created directory at: artifacts]
+[2024-11-15 21:08:03,054: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 21:08:03,057: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-11-15 21:10:35,843: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 21:11:00,852: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 21:11:02,711: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-15 21:11:02,715: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:11:02,715: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:11:02,720: INFO: common: created directory at: artifacts]
+[2024-11-15 21:11:02,721: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-15 21:11:03,802: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 71242
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "0233214ab70ed92f8366628bdbc229fca4a398b4a700b32ddd9d5ce695fdc6ba"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C403:129FAA:982D81:A692DE:673771E2
+Accept-Ranges: bytes
+Date: Fri, 15 Nov 2024 16:11:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990031-FJR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1731687064.002849,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a17ff3ce4ff422309177109719e3f19753a0cb7d
+Expires: Fri, 15 Nov 2024 16:16:04 GMT
+Source-Age: 181
+
+]
+[2024-11-15 21:11:03,936: INFO: data_ingestion: Files extracted to artifacts/data_ingestion]
+[2024-11-15 21:11:03,945: INFO: data_ingestion: Dataset organized into data_ingestion\email_data/train, data_ingestion\email_data/test, and data_ingestion\email_data/val folders.]
+[2024-11-15 21:11:03,950: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 21:11:03,951: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-15 21:11:03,963: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:11:03,969: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:11:03,970: INFO: common: created directory at: artifacts]
+[2024-11-15 21:11:03,973: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 21:11:03,975: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-11-15 21:13:32,069: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 21:13:33,906: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-15 21:13:33,910: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:13:33,913: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:13:34,008: INFO: common: created directory at: artifacts]
+[2024-11-15 21:13:34,012: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-15 21:13:35,347: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 71242
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "0233214ab70ed92f8366628bdbc229fca4a398b4a700b32ddd9d5ce695fdc6ba"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C403:129FAA:982D81:A692DE:673771E2
+Accept-Ranges: bytes
+Date: Fri, 15 Nov 2024 16:13:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990023-FJR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1731687215.230311,VS0,VE281
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 38b238b55e0afc37c1fde8853e5f18913b814989
+Expires: Fri, 15 Nov 2024 16:18:35 GMT
+Source-Age: 0
+
+]
+[2024-11-15 21:13:35,392: INFO: data_ingestion: Files extracted to artifacts/data_ingestion]
+[2024-11-15 21:13:35,403: INFO: data_ingestion: Dataset organized into artifacts\data_ingestion\email_data/train, artifacts\data_ingestion\email_data/test, and artifacts\data_ingestion\email_data/val folders.]
+[2024-11-15 21:13:35,405: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 21:13:35,406: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-15 21:13:35,408: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:13:35,419: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:13:35,421: INFO: common: created directory at: artifacts]
+[2024-11-15 21:13:35,422: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 21:13:35,423: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-11-15 21:15:47,239: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 21:15:49,418: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-15 21:15:49,423: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:15:49,428: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:15:49,429: INFO: common: created directory at: artifacts]
+[2024-11-15 21:15:49,430: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-15 21:15:49,430: INFO: data_ingestion: File already exists of size: ~ 70 KB]
+[2024-11-15 21:15:49,446: INFO: data_ingestion: Files extracted to artifacts/data_ingestion]
+[2024-11-15 21:15:49,459: INFO: data_ingestion: Dataset organized into artifacts\data_ingestion\email_data/train, artifacts\data_ingestion\email_data/test, and artifacts\data_ingestion\email_data/val folders.]
+[2024-11-15 21:15:49,461: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 21:15:49,462: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-15 21:15:49,474: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:15:49,479: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:15:49,481: INFO: common: created directory at: artifacts]
+[2024-11-15 21:15:49,482: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 21:15:49,492: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-11-15 21:33:55,911: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 21:34:10,382: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:34:10,395: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:34:10,400: INFO: common: created directory at: artifacts]
+[2024-11-15 21:34:10,402: INFO: common: created directory at: artifacts/data_transformation]
+[2024-11-15 21:40:20,115: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:40:20,128: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:40:20,131: INFO: common: created directory at: artifacts]
+[2024-11-15 21:40:20,131: INFO: common: created directory at: artifacts/data_transformation]
+[2024-11-15 21:43:09,221: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:43:09,244: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:43:09,248: INFO: common: created directory at: artifacts]
+[2024-11-15 21:43:09,252: INFO: common: created directory at: artifacts/data_transformation]
+[2024-11-15 21:43:25,948: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:43:25,954: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:43:25,956: INFO: common: created directory at: artifacts]
+[2024-11-15 21:43:25,961: INFO: common: created directory at: artifacts/data_transformation]
+[2024-11-15 21:51:42,745: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 21:51:42,754: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 21:51:42,757: INFO: common: created directory at: artifacts]
+[2024-11-15 21:51:42,764: INFO: common: created directory at: artifacts/data_transformation]
+[2024-11-15 22:13:40,856: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 22:13:40,870: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 22:13:40,874: INFO: common: created directory at: artifacts]
+[2024-11-15 22:13:40,878: INFO: common: created directory at: artifacts/data_transformation]
+[2024-11-15 22:15:20,492: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 22:15:26,836: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-15 22:15:26,849: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 22:15:26,853: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 22:15:26,854: INFO: common: created directory at: artifacts]
+[2024-11-15 22:15:26,854: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-15 22:15:26,855: INFO: data_ingestion: File already exists of size: ~ 70 KB]
+[2024-11-15 22:15:26,908: INFO: data_ingestion: Files extracted to artifacts/data_ingestion]
+[2024-11-15 22:15:26,922: INFO: data_ingestion: Dataset organized into artifacts\data_ingestion\email_data/train, artifacts\data_ingestion\email_data/test, and artifacts\data_ingestion\email_data/val folders.]
+[2024-11-15 22:15:26,923: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 22:15:26,923: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-15 22:15:26,933: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 22:15:26,966: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 22:15:27,000: INFO: common: created directory at: artifacts]
+[2024-11-15 22:15:27,025: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 22:15:27,068: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-11-15 22:15:27,068: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-11-15 22:15:27,077: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 22:15:27,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 22:15:27,082: INFO: common: created directory at: artifacts]
+[2024-11-15 22:15:27,086: INFO: common: created directory at: artifacts/data_transformation]
+[2024-11-15 22:15:29,876: ERROR: main: An error occurred while generating the dataset
+
+All the data files must have the same columns, but at some point there are 2 new columns ({'Emily is excited about the collaboration and plans to involve students in the process for the next NEA conference. She proposes a video call on April 14th at 4:00 PM CST to brainstorm ideas and create a plan. Emily will set up a shared Google Drive folder and a Google Doc for meeting notes and collaboration.', "Subject: RE: Great meeting you at the NEA conference!\n\nHi Michael,\n\nI'm thrilled that you're on board with this collaboration! Involving our students in the process is an excellent idea, and I believe it will make our presentation at next year's NEA conference even more impactful.\n\nLet's schedule a video call for next Wednesday, April 14th, at 4:00 PM CST. This will give us time to brainstorm some initial ideas and create a plan for our first round of interdisciplinary materials.\n\nI'll create a shared Google Drive folder where we can store our work and collaborate efficiently. I'll also create a Google Doc for our meeting agenda and notes.\n\nThank you for your enthusiasm and willingness to collaborate. I'm looking forward to working together and creating something truly special for our students!\n\nBest regards,\nEmily"}) and 2 missing columns ({'summary', 'email'}).
+
+This happened while the csv dataset builder was generating data using
+
+E:/Interest/_Projects/distilbart-text summarization/Text-Summarization-NLP-Project/artifacts/data_ingestion/email_data/test/test.csv
+
+Please either edit the data files to have matching columns, or separate them into different configurations (see docs at https://hf.co/docs/hub/datasets-manual-configuration#multiple-configurations)]
+Traceback (most recent call last):
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\myenv\Lib\site-packages\datasets\builder.py", line 1870, in _prepare_split_single
+    writer.write_table(table)
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\myenv\Lib\site-packages\datasets\arrow_writer.py", line 622, in write_table
+    pa_table = table_cast(pa_table, self._schema)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\myenv\Lib\site-packages\datasets\table.py", line 2292, in table_cast
+    return cast_table_to_schema(table, schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\myenv\Lib\site-packages\datasets\table.py", line 2240, in cast_table_to_schema
+    raise CastError(
+datasets.table.CastError: Couldn't cast
+Subject: RE: Great meeting you at the NEA conference!
+
+Hi Michael,
+
+I'm thrilled that you're on board with this collaboration! Involving our students in the process is an excellent idea, and I believe it will make our presentation at next year's NEA conference even more impactful.
+
+Let's schedule a video call for next Wednesday, April 14th, at 4:00 PM CST. This will give us time to brainstorm some initial ideas and create a plan for our first round of interdisciplinary materials.
+
+I'll create a shared Google Drive folder where we can store our work and collaborate efficiently. I'll also create a Google Doc for our meeting agenda and notes.
+
+Thank you for your enthusiasm and willingness to collaborate. I'm looking forward to working together and creating something truly special for our students!
+
+Best regards,
+Emily: string
+Emily is excited about the collaboration and plans to involve students in the process for the next NEA conference. She proposes a video call on April 14th at 4:00 PM CST to brainstorm ideas and create a plan. Emily will set up a shared Google Drive folder and a Google Doc for meeting notes and collaboration.: string
+-- schema metadata --
+pandas: '{"index_columns": [{"kind": "range", "name": null, "start": 0, "' + 2756
+to
+{'email': Value(dtype='string', id=None), 'summary': Value(dtype='string', id=None)}
+because column names don't match
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\main.py", line 38, in <module>
+    data_transformation.main()
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\src\textSummarizer\pipeline\stage_03_data_transformation.py", line 14, in main
+    data_transformation.convert()
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\src\textSummarizer\conponents\data_transformation.py", line 28, in convert
+    dataset = load_dataset('csv', data_files={
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\myenv\Lib\site-packages\datasets\load.py", line 2154, in load_dataset
+    builder_instance.download_and_prepare(
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\myenv\Lib\site-packages\datasets\builder.py", line 924, in download_and_prepare
+    self._download_and_prepare(
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\myenv\Lib\site-packages\datasets\builder.py", line 1000, in _download_and_prepare
+    self._prepare_split(split_generator, **prepare_split_kwargs)
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\myenv\Lib\site-packages\datasets\builder.py", line 1741, in _prepare_split
+    for job_id, done, content in self._prepare_split_single(
+  File "E:\Interest\_Projects\distilbart-text summarization\Text-Summarization-NLP-Project\myenv\Lib\site-packages\datasets\builder.py", line 1872, in _prepare_split_single
+    raise DatasetGenerationCastError.from_cast_error(
+datasets.exceptions.DatasetGenerationCastError: An error occurred while generating the dataset
+
+All the data files must have the same columns, but at some point there are 2 new columns ({'Emily is excited about the collaboration and plans to involve students in the process for the next NEA conference. She proposes a video call on April 14th at 4:00 PM CST to brainstorm ideas and create a plan. Emily will set up a shared Google Drive folder and a Google Doc for meeting notes and collaboration.', "Subject: RE: Great meeting you at the NEA conference!\n\nHi Michael,\n\nI'm thrilled that you're on board with this collaboration! Involving our students in the process is an excellent idea, and I believe it will make our presentation at next year's NEA conference even more impactful.\n\nLet's schedule a video call for next Wednesday, April 14th, at 4:00 PM CST. This will give us time to brainstorm some initial ideas and create a plan for our first round of interdisciplinary materials.\n\nI'll create a shared Google Drive folder where we can store our work and collaborate efficiently. I'll also create a Google Doc for our meeting agenda and notes.\n\nThank you for your enthusiasm and willingness to collaborate. I'm looking forward to working together and creating something truly special for our students!\n\nBest regards,\nEmily"}) and 2 missing columns ({'summary', 'email'}).
+
+This happened while the csv dataset builder was generating data using
+
+E:/Interest/_Projects/distilbart-text summarization/Text-Summarization-NLP-Project/artifacts/data_ingestion/email_data/test/test.csv
+
+Please either edit the data files to have matching columns, or separate them into different configurations (see docs at https://hf.co/docs/hub/datasets-manual-configuration#multiple-configurations)
+[2024-11-15 22:21:59,649: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-15 22:22:07,580: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-11-15 22:22:07,617: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 22:22:07,620: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 22:22:07,622: INFO: common: created directory at: artifacts]
+[2024-11-15 22:22:07,623: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-15 22:22:09,108: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 71260
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "70d276ca1b7e88b66d031899c822054b9cbe8ba34cdae2ea4eb1fd02274d57f8"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DE8B:55E7E:7194E:FED1F:67378341
+Accept-Ranges: bytes
+Date: Fri, 15 Nov 2024 17:22:09 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990034-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1731691329.051115,VS0,VE294
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a2b4460ce7fbac29d6ffed4e5b180b05af8ffdda
+Expires: Fri, 15 Nov 2024 17:27:09 GMT
+Source-Age: 0
+
+]
+[2024-11-15 22:22:09,168: INFO: data_ingestion: Files extracted to artifacts/data_ingestion]
+[2024-11-15 22:22:09,183: INFO: data_ingestion: Dataset organized into artifacts\data_ingestion\email_data/train, artifacts\data_ingestion\email_data/test, and artifacts\data_ingestion\email_data/val folders.]
+[2024-11-15 22:22:09,186: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-11-15 22:22:09,188: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-15 22:22:09,191: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 22:22:09,200: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 22:22:09,201: INFO: common: created directory at: artifacts]
+[2024-11-15 22:22:09,202: INFO: common: created directory at: artifacts/data_validation]
+[2024-11-15 22:22:09,206: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-11-15 22:22:09,206: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-11-15 22:22:09,216: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-15 22:22:09,218: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-15 22:22:09,220: INFO: common: created directory at: artifacts]
+[2024-11-15 22:22:09,221: INFO: common: created directory at: artifacts/data_transformation]
+[2024-11-15 22:22:15,478: INFO: data_transformation: Dataset transformed and saved to artifacts/data_transformation\email_data_transformed]
+[2024-11-15 22:22:15,502: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-11-19 14:16:48,849: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-19 14:35:02,919: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-19 14:35:02,949: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-19 14:35:02,952: INFO: common: created directory at: artifacts]
+[2024-11-19 14:35:02,954: INFO: common: created directory at: artifacts/model_trainer]
+[2024-11-19 15:03:06,996: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-19 15:03:22,545: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-19 15:03:22,551: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-19 15:03:22,554: INFO: common: created directory at: artifacts]
+[2024-11-19 15:03:22,556: INFO: common: created directory at: artifacts/model_trainer]
+[2024-11-19 15:04:37,755: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-19 15:04:37,773: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-19 15:04:37,773: INFO: common: created directory at: artifacts]
+[2024-11-19 15:04:37,773: INFO: common: created directory at: artifacts/model_trainer]
+[2024-11-19 15:06:37,434: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-19 15:06:37,440: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-19 15:06:37,448: INFO: common: created directory at: artifacts]
+[2024-11-19 15:06:37,451: INFO: common: created directory at: artifacts/model_trainer]
+[2024-11-19 21:26:02,339: INFO: config: PyTorch version 2.5.1 available.]
+[2024-11-19 21:30:58,875: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-19 21:30:58,880: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-19 21:30:58,883: INFO: common: created directory at: artifacts]
+[2024-11-19 21:30:58,884: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-11-19 21:37:34,615: INFO: rouge_scorer: Using default tokenizer.]
+[2024-11-19 22:02:27,229: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-19 22:02:27,229: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-19 22:02:27,229: INFO: common: created directory at: artifacts]
+[2024-11-19 22:02:27,229: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-11-19 22:09:21,169: INFO: rouge_scorer: Using default tokenizer.]
+[2024-11-20 14:25:47,574: INFO: server: Started server process [8984]]
+[2024-11-20 14:25:47,585: INFO: on: Waiting for application startup.]
+[2024-11-20 14:25:47,589: INFO: on: Application startup complete.]
+[2024-11-20 14:25:47,591: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-11-20 14:29:32,796: INFO: server: Shutting down]
+[2024-11-20 14:29:32,905: INFO: on: Waiting for application shutdown.]
+[2024-11-20 14:29:32,906: INFO: on: Application shutdown complete.]
+[2024-11-20 14:29:32,908: INFO: server: Finished server process [8984]]
+[2024-11-20 14:30:05,967: INFO: server: Started server process [17364]]
+[2024-11-20 14:30:05,970: INFO: on: Waiting for application startup.]
+[2024-11-20 14:30:05,972: INFO: on: Application startup complete.]
+[2024-11-20 14:30:05,975: INFO: server: Uvicorn running on http://0.0.0.0:8501 (Press CTRL+C to quit)]
+[2024-11-20 14:32:31,858: INFO: server: Shutting down]
+[2024-11-20 14:32:31,955: INFO: on: Waiting for application shutdown.]
+[2024-11-20 14:32:31,959: INFO: on: Application shutdown complete.]
+[2024-11-20 14:32:31,963: INFO: server: Finished server process [17364]]
+[2024-11-20 14:32:50,172: INFO: server: Started server process [4436]]
+[2024-11-20 14:32:50,175: INFO: on: Waiting for application startup.]
+[2024-11-20 14:32:50,178: INFO: on: Application startup complete.]
+[2024-11-20 14:32:50,187: INFO: server: Uvicorn running on http://0.0.0.0:8501 (Press CTRL+C to quit)]
+[2024-11-20 14:34:13,592: INFO: server: Shutting down]
+[2024-11-20 14:34:13,711: INFO: on: Waiting for application shutdown.]
+[2024-11-20 14:34:13,719: INFO: on: Application shutdown complete.]
+[2024-11-20 14:34:13,727: INFO: server: Finished server process [4436]]
+[2024-11-20 14:34:32,613: INFO: server: Started server process [7020]]
+[2024-11-20 14:34:32,614: INFO: on: Waiting for application startup.]
+[2024-11-20 14:34:32,616: INFO: on: Application startup complete.]
+[2024-11-20 14:34:32,617: INFO: server: Uvicorn running on http://127.0.0.1:8501 (Press CTRL+C to quit)]
+[2024-11-20 14:36:44,993: INFO: server: Shutting down]
+[2024-11-20 14:37:49,437: INFO: server: Started server process [2484]]
+[2024-11-20 14:37:49,439: INFO: on: Waiting for application startup.]
+[2024-11-20 14:37:49,440: INFO: on: Application startup complete.]
+[2024-11-20 14:37:49,441: INFO: server: Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)]
+[2024-11-20 14:40:40,977: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-20 14:40:41,013: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-20 14:40:41,023: INFO: common: created directory at: artifacts]
+[2024-11-20 14:40:41,026: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-11-20 14:50:48,802: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-20 14:50:48,816: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-20 14:50:48,817: INFO: common: created directory at: artifacts]
+[2024-11-20 14:50:48,820: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-11-20 14:52:35,203: INFO: server: Shutting down]
+[2024-11-20 14:52:35,318: INFO: on: Waiting for application shutdown.]
+[2024-11-20 14:52:35,324: INFO: on: Application shutdown complete.]
+[2024-11-20 14:52:35,328: INFO: server: Finished server process [2484]]
+[2024-11-20 14:53:40,794: INFO: server: Started server process [17288]]
+[2024-11-20 14:53:40,807: INFO: on: Waiting for application startup.]
+[2024-11-20 14:53:40,808: INFO: on: Application startup complete.]
+[2024-11-20 14:53:40,809: INFO: server: Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)]
+[2024-11-20 14:54:13,925: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-20 14:54:13,928: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-20 14:54:13,928: INFO: common: created directory at: artifacts]
+[2024-11-20 14:54:13,928: INFO: common: created directory at: artifacts/model_evaluation]

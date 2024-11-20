@@ -18,16 +18,16 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Text-Summarization
+https://github.com/MuneebUH/DistilBART-Text-Summarization
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a virtual environment after opening the repository
 
 ```bash
-conda create -n summary python=3.8 -y
+python -m venv myenv
 ```
 
 ```bash
-conda activate summary
+myenv/Scripts/activate
 ```
 
 
@@ -44,7 +44,7 @@ python app.py
 
 Now,
 ```bash
-open up you local host and port
+open up your local host and port
 ```
 
 

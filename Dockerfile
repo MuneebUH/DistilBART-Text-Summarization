@@ -1,13 +1,22 @@
+# Use Python 3.8 slim-buster as base image
 FROM python:3.8-slim-buster
 
-RUN apt update -y && apt install awscli -y
+# Update the package list and install required system dependencies
+RUN apt update -y && apt install -y --no-install-recommends \
+    git \
+    awscli
+
+# Set the working directory inside the container
 WORKDIR /app
 
+# Copy the application code into the container
 COPY . /app
 
-RUN pip install -r requirements.txt
-RUN pip install --upgrade accelerate
-RUN pip uninstall -y transformers accelerate
-RUN pip install transformers accelerate
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
+# Upgrade accelerate and transformers (if needed)
+RUN pip install --no-cache-dir --upgrade accelerate transformers
+
+# Set the default command to run the application
 CMD ["python3", "app.py"]

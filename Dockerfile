@@ -1,22 +1,20 @@
-# Use Python 3.8-slim-buster as base image
-FROM python:3.8-slim-buster
+# Use Python 3.12.7 slim-bullseye as base image
+FROM python:3.12.7-slim-bullseye
 
-# Update the package list and install required system dependencies
-RUN apt update -y && apt install -y --no-install-recommends \
-    git \
-    awscli
+# Upgrade pip to the latest version
+RUN pip install --upgrade pip
 
-# Set the working directory inside the container
+# Set working directory inside container
 WORKDIR /app
 
-# Copy the application code into the container
-COPY . /app
+# Copy requirements file into the container
+COPY requirements.txt .
 
-# Install Python dependencies
+# Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Upgrade accelerate and transformers (if needed)
-RUN pip install --no-cache-dir --upgrade accelerate transformers
+# Copy the rest of the application files into the container
+COPY . .
 
 # Set the default command to run the application
-CMD ["python3", "app.py"]
+CMD ["python", "app.py"]

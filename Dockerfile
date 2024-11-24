@@ -1,5 +1,5 @@
-# Use Python 3.12 slim-buster as base image
-FROM python:3.12-slim-buster
+# Use Python 3.8-slim-buster as base image
+FROM python:3.8-slim-buster
 
 # Update the package list and install required system dependencies
 RUN apt update -y && apt install -y --no-install-recommends \

@@ -1,6 +1,9 @@
 # Use Python 3.12.7 slim-bullseye as base image
 FROM python:3.12.7-slim-bullseye
 
+# Install git and other dependencies
+RUN apt-get update && apt-get install -y git
+
 # Upgrade pip to the latest version
 RUN pip install --upgrade pip
 

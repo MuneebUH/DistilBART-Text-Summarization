@@ -1,11 +1,6 @@
 FROM python:3.8-slim-buster
 
-# Update package list and install necessary tools
-RUN apt update -y && \
-    apt install -y awscli git && \
-    apt clean && \
-    rm -rf /var/lib/apt/lists/*
-
+RUN apt update -y && apt install awscli -y
 WORKDIR /app
 
 COPY . /app

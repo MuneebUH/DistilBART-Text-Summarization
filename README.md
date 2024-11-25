@@ -91,7 +91,7 @@ open up your local host and port
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-	#optinal
+	#optional
 
 	sudo apt-get update -y
 

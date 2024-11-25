@@ -3,7 +3,7 @@ accelerate
 aiohappyeyeballs==2.4.3
 aiohttp==3.10.10
 aiosignal
-anyio==4.6.2.post1
+anyio
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
 arrow==1.3.0
